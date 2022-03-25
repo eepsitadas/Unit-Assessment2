@@ -1,0 +1,128 @@
+
+.grid-container
+{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: #444;
+    margin: 20px;
+
+}
+.item {
+    background-color: yellow;
+    color: black;
+   /* border-radius: 5px;*/
+    /*padding: 30px;*/
+    font:200px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 290px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tacoimage-container
+{
+    
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #444;
+    margin:10px;
+    height:200px;
+}
+#Taco
+{
+    background-color: yellow;
+    color: rgb(10, 10, 10);
+    font-size: 150%;
+    font-weight: bold;
+    font-family:  Verdana;
+    text-align: center;
+    font-size: 25px;
+   
+}
+#Tacoimg
+{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url("images/taco1.JPG");
+    background-color: yellow;
+    font-size: 25px;
+    color:rgb(255,0,0);
+    align-items: center;
+  
+}
+
+.information-container
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #444;
+    margin:10px
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+
+#Taco1{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.featured-taco-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    color: black;
+    grid-auto-rows: 200px;
+    margin:20px
+}
+#Taco2{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 150%;
+    height: 240px;
+}
+
+.h1{
+    grid-column: 1 ;
+    background-image: url("images/queso-taco.png");
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-family:  Verdana;
+    font-size: 25px;
+    text-align: left;
+}
+.About us
+{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family:  Verdana;
+    font-size: 15px;
+}
+
+
+
+  
